@@ -10,4 +10,10 @@
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0-rc.2.20475.5" />
   </ItemGroup>
 
+  <!-- Compile SCSS files into CSS -->
+  <Target Name="CompileWwwrootSass" BeforeTargets="Compile">
+    <Message Text="Compiling wwwroot SCSS files" Importance="high" />
+    <Exec Command="npm run sass -- --style=compressed Styles:wwwroot/css" />
+  </Target>
+
 </Project>
