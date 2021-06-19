@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <!-- Compile SCSS files into CSS -->
-  <Target Name="CompileWwwrootSass" BeforeTargets="Compile">
-    <Message Text="Compiling wwwroot SCSS files" Importance="high" />
-    <Exec Command="npm run sass -- --style=compressed Styles:wwwroot/css" />
+  <Target Name="CompileGlobalSass" BeforeTargets="Compile">
+    <Message Text="Compiling global SCSS files" Importance="high" />
+    <Exec Command="npm run sass -- Styles:wwwroot/css" />
   </Target>
 
 </Project>
