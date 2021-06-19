@@ -1,0 +1,22 @@
+{
+    "name": "blazorscssdemo",
+    "version": "1.0.0",
+    "description": "Blazor SCSS Demo",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FriendsCodeTogether/cosnet.git"
+    },
+    "author": "Joren Thijs",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FriendsCodeTogether/cosnet/issues"
+    },
+    "homepage": "https://github.com/FriendsCodeTogether/cosnet#readme",
+    "devDependencies": {
+        "sass": "^1.35.1"
+    }
+}
