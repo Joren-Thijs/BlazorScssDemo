@@ -1,6 +1,6 @@
 {
   "files.exclude": {
-    "**/*.razor.css": false,
+    "**/*.razor.css": true,
     "**/*.razor.css.map": true
   }
 }
